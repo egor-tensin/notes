@@ -28,6 +28,8 @@ a path, a link or a header.
 
         Code blocks inside lists are indented with 4 * (list nesting level + 1) spaces.
 
+* Don't mix fenced code blocks with indented code blocks in a single document.
+
 In a table, | the | first row | is underlined.
 ----------- | --- | --------- | --------------
 Leftmost    | and | rightmost | vertical
