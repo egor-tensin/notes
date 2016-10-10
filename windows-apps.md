@@ -37,7 +37,7 @@ Optional
     * Disable automatic startup.
 * WinDirStat
 
-Special-purpose
+Special purpose
 ---------------
 
 * Ghostscript (`gswin32`/`gswin64`)
