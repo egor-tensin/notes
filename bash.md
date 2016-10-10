@@ -8,5 +8,5 @@ GNU `bash`
 
     * No:
 
-            func "${arr[@]}"             # doesn't work with `nounset`
-            func "${arr[@]+"${arr[@]}"}" # doesn't work with ('')
+            func "${arr[@]}"                # doesn't work with `nounset`
+            func "${arr[@]+"${arr[@]}"}"    # doesn't work with ('')
