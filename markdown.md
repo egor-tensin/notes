@@ -17,7 +17,7 @@ Additional sentences start there also.
 Omit the second pair of brackets `[]` entirely where appropriate.
 For example, [Google] is preferred over both [Google](https://ya.ru) and
 [I'm feeeling lucky][google] (see document source).
-* First- and second-level headers are underlined (with `=` and `-`).
+* First- and second-level headers are underlined with strings of `=` and `-`.
 The number of `=`/`-` signs must be equal to the number of characters in the
 header.
 * File paths are enclosed in double quotes.
