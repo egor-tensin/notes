@@ -13,12 +13,13 @@ line feed at the end in Windows' `cmd`, an extra empty line is added.
     * Longer items wrap at 79 characters and continue from the leftmost
 character column.
 Additional sentences start there also.
-* Prefer reference-style linkes over inline links.
-Use implicit reference link names where appropriate, omitting the second pair
-of brackets `[]` entirely.
-* First- and second- level headers are underlined (with `=` and `-`).
-The number of `=` (or `-`) signs must be equal to the number of characters in
-the header.
+* Prefer reference-style links over inline links.
+Omit the second pair of brackets `[]` entirely where appropriate.
+For example, [Google] is preferred over both [Google](https://ya.ru) and
+[I'm feeeling lucky][google] (see document source).
+* First- and second-level headers are underlined (with `=` and `-`).
+The number of `=`/`-` signs must be equal to the number of characters in the
+header.
 * File paths are enclosed in double quotes.
 Environment variable names are enclosed in a pair of backticks (\`) unless it's
 a part of a path.
@@ -34,3 +35,5 @@ In a table, | the | first row | is underlined.
 ----------- | --- | --------- | --------------
 Leftmost    | and | rightmost | vertical
 lines       | are | omitted.  |
+
+[Google]: https://www.google.com/
