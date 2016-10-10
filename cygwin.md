@@ -2,7 +2,7 @@ Cygwin packages
 ===============
 
 I install those on more or less every Cygwin installation at some point or
-another, so I thought it would be nice to make a complete list.
+another, so I thought it would be useful to make a complete list.
 
 * `bc`
 * `cmake`
