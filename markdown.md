@@ -6,7 +6,7 @@ Markdown style guide
 * Lines are at most 79 characters wide, not counting neither the carriage
 return, nor the line feed characters.
     * Not 80 characters, because when you display a 80-character line with a
-line feed at the end in Windows's Command Prompt, an extra empty line is added.
+line feed at the end in Windows' `cmd`, an extra empty line is added.
 * No hanging indents in lists.
     * Nested lists are indented with 4 spaces.
     * No hanging indents in those also.
