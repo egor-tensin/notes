@@ -1,5 +1,5 @@
-Windows software
-================
+Windows apps
+============
 
 A list of useful Windows apps.
 I install those on more or less every Windows installation at some point or
@@ -92,31 +92,3 @@ http://www.lfd.uci.edu/~gohlke/pythonlibs/.
 * Ruby
     * Check `where ruby`.
     * Install DevKit (`dk.rb init` && `dk.rb install`).
-
-Configuration
-=============
-
-* Disable User Account Control (Windows 7/8). This also works on Windows 10,
-but, as with Windows 8, renders all "modern" applications unusable, which in
-case of Windows 10 includes the infamous Cortana, disabling even the simplest
-things (like searching among installed applications).
-
-        reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System ^
-            /t REG_DWORD /f /v EnableLUA /d 0
-
-* Disable the "Get Windows 10" application (Windows 7/8):
-
-        reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\Gwx ^
-            /t REG_DWORD /f /v DisableGwx /d 1
-        reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate ^
-            /t REG_DWORD /f /v DisableOSUpgrade /d 1
-
-* Disable automatic reboots after updates are installed (Windows 7/8/10):
-
-        reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU ^
-            /t REG_DWORD /f /v NoAutoRebootWithLoggedOnUsers /d 1
-
-* Disable the "new app installed" notifications (Windows 8/10):
-
-        reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer ^
-            /t REG_DWORD /f /v NoNewAppAlert /d 1
