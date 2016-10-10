@@ -33,6 +33,15 @@ Optional
 * CCleaner
     * Disable "system monitoring" & "Active Monitoring".
     * Disable update checks.
+* qBittorrent
+    * Set downloads directory path.
+* Skype
+    * Disable automatic startup.
+* WinDirStat
+
+Special-purpose
+---------------
+
 * Ghostscript
     * Check `where gswin32`/`where gswin64`.
 * Graphviz
@@ -40,44 +49,49 @@ Optional
 * ImageMagick
     * Install "legacy utilities".
     * Check `where convert`.
-* qBittorrent
-    * Set downloads directory path.
-* Skype
-    * Disable automatic startup.
 * TeX Live
     * Check `where pdflatex`.
-* WinDirStat
 * WinSCP
 
 Development
 -----------
 
+### Version control
+
+* KDiff3
+    * Disable Explorer integration using CCleaner.
+    * Check `where kdiff3`.
+* WinMerge
+    * Disable Explorer integration using CCleaner.
+
+### C/C++
+
 * CMake
     * Check `where cmake`.
 * doxygen
     * Check `where doxygen`.
+
+### Haskell
+
 * Haskell Platform
     * `cabal update`
-    * Set `user-install: False` in "%APPDATA%\cabal\config" (optional).
-    * `cabal install hlint hoogle ShellCheck` (optional).
 * Haskell Stack
     * Update `STACK_HOME` (when installing to any directory other than the
 default one).
     * Check `where stack`.
-* KDiff3
-    * Disable Explorer integration using CCleaner.
-    * Check `where kdiff3`.
+
+### Python
+
 * Python
     * Check `where python`.
     * `pip install` numpy & matplotlib from
 http://www.lfd.uci.edu/~gohlke/pythonlibs/.
+
+### Ruby
+
 * Ruby
     * Check `where ruby`.
     * Install DevKit (`dk.rb init` && `dk.rb install`).
-* WinMerge
-    * Disable Explorer integration using Edit -> Options... -> Shell
-Integration (possibly using CCleaner too).
-    * View -> Select Font...
 
 Configuration
 =============
