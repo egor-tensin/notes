@@ -4,6 +4,26 @@ GNU `bash`
 (Associative) arrays
 --------------------
 
+### Declaration
+
+`"${#xs[@]}"` doesn't work with `nounset` if `xs` wasn't defined, i.e. was
+declared with either of
+
+    local -a xs
+    declare -a xs
+    local -A xs
+    declare -A xs
+
+Therefore, if you want to extract the length of an array, append `=()` to the
+statements above.
+
+    local -a xs=()
+    declare -a xs=()
+    ...
+
+And now `"${#xs[@]}"` works with `nounset`.
+It doesn't affect expansion (see below) though.
+
 ### Expansion
 
 #### Do
