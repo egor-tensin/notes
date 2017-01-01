@@ -139,3 +139,70 @@ using gcc : : x86_64-w64-mingw32-g++ ;
     ...
 ...
 ```
+
+Usage in CMake
+--------------
+
+### Visual Studio
+
+#### x86
+
+```
+> cd
+D:\workspace\build\test_project\msvc\x64
+
+> cmake -G "Visual Studio 14 2015" ^
+    -D BOOST_ROOT=D:\workspace\third-party\boost_1_61_0\msvc                     ^
+    -D BOOST_LIBRARYDIR=D:\workspace\third-party\boost_1_61_0\msvc\stage\x86\lib ^
+    -D Boost_USE_STATIC_LIBS=ON    ^
+    -D Boost_USE_STATIC_RUNTIME=ON ^
+    ...
+```
+
+#### x64
+
+```
+> cd
+D:\workspace\build\test_project\msvc\x86
+
+> cmake -G "Visual Studio 14 2015 Win64" ^
+    -D BOOST_ROOT=D:\workspace\third-party\boost_1_61_0\msvc                     ^
+    -D BOOST_LIBRARYDIR=D:\workspace\third-party\boost_1_61_0\msvc\stage\x64\lib ^
+    -D Boost_USE_STATIC_LIBS=ON          ^
+    -D Boost_USE_STATIC_RUNTIME=ON       ^
+    ...
+```
+
+### Cygwin + MinGW-w64
+
+#### x86
+
+```
+> cd
+/cygdrive/d/workspace/build/test_project/mingw/x86/debug
+
+> cmake -G "Unix Makefiles"                    \
+    -D CMAKE_BUILD_TYPE=Debug                  \
+    -D CMAKE_C_COMPILER=i686-w64-mingw32-gcc   \
+    -D CMAKE_CXX_COMPILER=i686-w64-mingw32-g++ \
+    -D BOOST_ROOT=/cygdrive/d/workspace/third-party/boost_1_61_0/mingw                     \
+    -D BOOST_LIBRARYDIR=/cygdrive/d/workspace/third-party/boost_1_61_0/mingw/x86/debug/lib \
+    -D Boost_USE_STATIC_LIBS=ON                \
+    ...
+```
+
+#### x64
+
+```
+> cd
+/cygdrive/d/workspace/build/test_project/mingw/x64/debug
+
+> cmake -G "Unix Makefiles"                      \
+    -D CMAKE_BUILD_TYPE=Release                  \
+    -D CMAKE_C_COMPILER=x86_64-w64-mingw32-gcc   \
+    -D CMAKE_CXX_COMPILER=x86_64-w64-mingw32-g++ \
+    -D BOOST_ROOT=/cygdrive/d/workspace/third-party/boost_1_61_0/mingw                     \
+    -D BOOST_LIBRARYDIR=/cygdrive/d/workspace/third-party/boost_1_61_0/mingw/x64/debug/lib \
+    -D Boost_USE_STATIC_LIBS=ON                  \
+    ...
+```
