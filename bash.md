@@ -51,3 +51,15 @@ It doesn't affect expansion (see below) though.
     unset -v 'arr["$i"]'    # Also rejected.
 
     # An insightful discussion on the topic: https://lists.gnu.org/archive/html/help-bash/2016-09/msg00020.html.
+
+### `errexit`
+
+#### Do
+
+    bar_output="$( bar )"
+    foo "$bar_output"
+
+#### Don't
+
+    foo "$( bar )"    # With `errexit`, foo will still get executed.
+                      # I don't know why.
