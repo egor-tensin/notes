@@ -28,9 +28,6 @@ Tools -> Options...
 Optional
 --------
 
-* CCleaner
-    * Disable "system monitoring" & "Active Monitoring".
-    * Disable update checks.
 * qBittorrent
     * Set downloads directory path.
 * Skype
