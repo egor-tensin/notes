@@ -8,7 +8,7 @@ another, so I thought it would be useful to make a complete list.
 Essential
 ---------
 
-* 7-Zip (`7z`)
+* 7-Zip
     * Associate file types and disable the "CRC SHA >" context menu entry in
 Tools -> Options...
 * Far Manager
@@ -19,7 +19,7 @@ Tools -> Options...
 * Sublime Text 3
 * SumatraPDF
     * Disable update checks.
-* Sysinternals Suite (`procexp`)
+* Sysinternals Suite
 * TeamViewer
     * Disable integrated system health checks (Extras -> Options -> Advanced).
 * VLC
@@ -38,11 +38,11 @@ Optional
 Special purpose
 ---------------
 
-* Ghostscript (`gswin32`/`gswin64`)
-* Graphviz (`dot`)
-* ImageMagick (`convert`)
+* Ghostscript
+* Graphviz
+* ImageMagick
     * Install "legacy utilities".
-* TeX Live (`pdflatex`)
+* TeX Live
 * WinSCP
 
 Development
@@ -50,14 +50,14 @@ Development
 
 ### Version control
 
-* KDiff3 (`kdiff3`)
+* KDiff3
     * Don't install "integrations".
 * WinMerge
 
 ### C/C++
 
-* CMake (`cmake`)
-* doxygen (`doxygen`)
+* CMake
+* doxygen
 
 ### Haskell
 
@@ -65,15 +65,15 @@ Development
     * `cabal update`
     * Don't forget to adjust paths in cabal's config as described here:
 https://www.haskell.org/platform/.
-* Haskell Stack (`stack`)
+* Haskell Stack
     * Update `STACK_HOME` (when installing to any directory other than the
 default one).
 
-### Python (`python`)
+### Python
 
 * `pip install` numpy & matplotlib from
 http://www.lfd.uci.edu/~gohlke/pythonlibs/.
 
-### Ruby (`ruby`)
+### Ruby
 
 * Install DevKit (`dk.rb init` && `dk.rb install`).
