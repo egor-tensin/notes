@@ -15,6 +15,7 @@ Tools -> Options...
     * Enable Explorer integration during installation.
 * Google Chrome
     * Don't sync history.
+    * Disable Location Tracking, Notifications, etc. in Content Settings.
 * Sublime Text 3
 * SumatraPDF
     * Disable update checks.
@@ -50,9 +51,8 @@ Development
 ### Version control
 
 * KDiff3 (`kdiff3`)
-    * Disable Explorer integration using CCleaner.
+    * Don't install "integrations".
 * WinMerge
-    * Disable Explorer integration using CCleaner.
 
 ### C/C++
 
@@ -63,6 +63,8 @@ Development
 
 * Haskell Platform
     * `cabal update`
+    * Don't forget to adjust paths in cabal's config as described here:
+https://www.haskell.org/platform/.
 * Haskell Stack (`stack`)
     * Update `STACK_HOME` (when installing to any directory other than the
 default one).
