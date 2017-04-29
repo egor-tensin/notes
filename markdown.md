@@ -3,7 +3,7 @@ Markdown style guide
 
 * `diff`- and HTML-friendliness is valued over human-readability.
 * Every sentence starts on a new line ("semantic newlines").
-* Lines are at most 79 characters wide, not counting neither the carriage
+* Lines are at most 79 characters long, not counting neither the carriage
 return, nor the line feed characters.
     * Not 80 characters, because when you display a 80-character line with a
 line feed at the end in Windows' `cmd`, an extra empty line is added.
@@ -16,7 +16,7 @@ Additional sentences start there also.
 * Prefer reference-style links over inline links.
 Omit the second pair of brackets `[]` entirely where appropriate.
 For example, [Google] is preferred over both [Google](https://ya.ru) and
-[I'm feeeling lucky][google] (see document source).
+[I'm feeeling lucky][google] (see this document's source).
 * First- and second-level headers are underlined with strings of `=` and `-`.
 The number of `=`/`-` signs must be equal to the number of characters in the
 header.
@@ -31,9 +31,9 @@ a path, a link or a header.
 
 * Don't mix fenced code blocks with indented code blocks in a single document.
 
-In a table, | the | first row | is underlined.
------------ | --- | --------- | --------------
-Leftmost    | and | rightmost | vertical
-lines       | are | omitted.  |
+| In a table, | the first | row   | is underlined.
+| ----------- | --------- | ----- | --------------
+| Leftmost    | vertical  | lines | are required.
+| Rightmost   | vertical  | lines | are omitted.
 
 [Google]: https://www.google.com/
