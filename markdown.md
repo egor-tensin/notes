@@ -27,7 +27,9 @@ Executable names are enclosed in a pair of backticks (\`) unless it's a part of
 a path, a link or a header.
 * Code blocks are indented with 4 spaces.
 
-        Code blocks inside lists are indented with 4 * (list nesting level + 1) spaces.
+      Code blocks inside lists are indented according to the spec
+      (https://github.github.com/gfm/#list-items), i.e. the column of the first
+      non-whitespace character in the item + 4.
 
 * Don't mix fenced code blocks with indented code blocks in a single document.
 
