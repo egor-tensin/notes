@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Security]
+"DisableSecuritySettingsCheck"=dword:00000001
+"DisableFixSecuritySettings"=dword:00000001
+"DisableSecuritySettings"=dword:00000001
