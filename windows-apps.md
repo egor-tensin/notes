@@ -73,7 +73,3 @@ default one).
 
 * `pip install` numpy & matplotlib from
 http://www.lfd.uci.edu/~gohlke/pythonlibs/.
-
-### Ruby
-
-* Install DevKit (`dk.rb init` && `dk.rb install`).
