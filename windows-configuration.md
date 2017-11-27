@@ -22,6 +22,8 @@ Disable automatic reboots after updates are installed (Windows 7/8/10):
     reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU ^
         /t REG_DWORD /f /v NoAutoRebootWithLoggedOnUsers /d 1
 
+Prefer the local policy setting if possible.
+
 Windows 10 upgrade
 ------------------
 
@@ -35,6 +37,9 @@ Disable the Windows 10 upgrade:
     reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate ^
         /t REG_DWORD /f /v DisableOSUpgrade /d 1
 
+Update: Probably irrelevant now, since Windows 7/8 installations don't get a
+Windows 10 upgrade anymore?
+
 Desktop environment
 -------------------
 
@@ -42,3 +47,6 @@ Disable the "new app installed" notifications (Windows 8/10):
 
     reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer ^
         /t REG_DWORD /f /v NoNewAppAlert /d 1
+
+Update: I haven't noticed any such notifications on my brand new Windows 10
+installation, so maybe it's irrelevant at least for Windows 10 now.
