@@ -61,10 +61,6 @@ Development
 
 ### Haskell
 
-* Haskell Platform
-    * `cabal update`
-    * Don't forget to adjust paths in cabal's config as described here:
-https://www.haskell.org/platform/.
 * Haskell Stack
     * Update `STACK_HOME` (when installing to any directory other than the
 default one).
