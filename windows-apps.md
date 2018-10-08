@@ -29,10 +29,9 @@ Tools -> Options...
 Optional
 --------
 
+* Discord
 * qBittorrent
     * Set downloads directory path.
-* Skype
-    * Disable automatic startup.
 * WinDirStat
 
 Special purpose
