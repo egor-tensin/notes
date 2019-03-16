@@ -16,12 +16,11 @@ Tools -> Options...
 * Google Chrome
     * Don't sync history.
     * Disable Location Tracking, Notifications, etc. in Content Settings.
+* KeePassXC
 * Sublime Text 3
 * SumatraPDF
     * Disable update checks.
 * Sysinternals Suite
-* TeamViewer
-    * Disable integrated system health checks (Extras -> Options -> Advanced).
 * VLC
     * Disable update checks.
     * Don't install web browser plugins.
@@ -32,6 +31,8 @@ Optional
 * Discord
 * qBittorrent
     * Set downloads directory path.
+* TeamViewer
+    * Disable integrated system health checks (Extras -> Options -> Advanced).
 * WinDirStat
 
 Special purpose
@@ -42,7 +43,6 @@ Special purpose
 * ImageMagick
     * Install "legacy utilities".
 * TeX Live
-* WinSCP
 
 Development
 -----------
