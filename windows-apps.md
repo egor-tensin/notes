@@ -9,8 +9,11 @@ Essential
 ---------
 
 * 7-Zip
-    * Associate file types and disable the "CRC SHA >" context menu entry in
-Tools -> Options...
+    * Associate the file types in Tools -> Options...
+    * Disable the "CRC SHA >" context menu entry on the other tab.
+* Cygwin
+    * Install/generate the client SSH key.
+    * Set up the SSH server.
 * Far Manager
     * Enable Explorer integration during installation.
 * Google Chrome
@@ -30,10 +33,10 @@ Optional
 
 * Discord
 * qBittorrent
-    * Set downloads directory path.
+    * Disable update checks.
+    * Set the downloads directory path.
 * TeamViewer
     * Disable integrated system health checks (Extras -> Options -> Advanced).
-* WinDirStat
 
 Special purpose
 ---------------
@@ -43,6 +46,7 @@ Special purpose
 * ImageMagick
     * Install "legacy utilities".
 * TeX Live
+* WinDirStat
 
 Development
 -----------
