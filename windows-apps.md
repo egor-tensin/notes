@@ -11,10 +11,10 @@ Essential
 * 7-Zip (`choco install 7zip.install`)
     * Associate the file types in Tools -> Options...
     * Disable the "CRC SHA >" context menu entry on the other tab.
-* Cygwin
+* Cygwin (`choco install cygwin`)
     * Install/generate the client SSH key.
     * Set up the SSH server.
-* Far Manager
+* Far Manager (`choco install far`)
     * Enable Explorer integration during installation.
 * Google Chrome (`choco install googlechrome`)
     * Don't sync history.
@@ -47,14 +47,14 @@ Special purpose
 * ImageMagick
     * Install "legacy utilities".
 * TeX Live
-* WinDirStat
+* WinDirStat (`choco install windirstat`)
 
 Development
 -----------
 
 ### Version control
 
-* KDiff3
+* KDiff3 (`choco install kdiff3`)
     * Don't install "integrations".
 * WinMerge
 

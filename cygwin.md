@@ -4,7 +4,7 @@ Cygwin packages
 I install those on more or less every Cygwin installation at some point or
 another, so I thought it would be useful to make a complete list.
 
-* chere (`chere -i -t mintty -s 'Open Cygwin here'`)
+* chere (`chere -i -t mintty -s bash -e 'Open Cygwin here'`)
 * cmake
 * curl
 * cygcheck-dep
