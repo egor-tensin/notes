@@ -8,7 +8,7 @@ another, so I thought it would be useful to make a complete list.
 Essential
 ---------
 
-* 7-Zip
+* 7-Zip (`choco install 7zip.install`)
     * Associate the file types in Tools -> Options...
     * Disable the "CRC SHA >" context menu entry on the other tab.
 * Cygwin
@@ -16,15 +16,16 @@ Essential
     * Set up the SSH server.
 * Far Manager
     * Enable Explorer integration during installation.
-* Google Chrome
+* Google Chrome (`choco install googlechrome`)
     * Don't sync history.
     * Disable Location Tracking, Notifications, etc. in Content Settings.
-* KeePassXC
+* KeePassXC (`choco install keepassxc`)
+* OpenVPN (`choco install openvpn --params "'/SELECT_EASYRSA=0'"`)
 * Sublime Text 3
-* SumatraPDF
+* SumatraPDF (`choco install sumatrapdf.install`)
     * Disable update checks.
-* Sysinternals Suite
-* VLC
+* Sysinternals Suite (`choco install sysinternals`)
+* VLC (`choco install vlc`)
     * Disable update checks.
     * Don't install web browser plugins.
 
@@ -32,10 +33,10 @@ Optional
 --------
 
 * Discord
-* qBittorrent
+* qBittorrent (`choco install qbittorrent`)
     * Disable update checks.
     * Set the downloads directory path.
-* TeamViewer
+* TeamViewer (`choco install teamviewer`)
     * Disable integrated system health checks (Extras -> Options -> Advanced).
 
 Special purpose
@@ -70,5 +71,6 @@ default one).
 
 ### Python
 
+* Python 3 (`choco install python3 --params "/InstallDir:C:\Python3"`).
 * `pip install` numpy & matplotlib from
 http://www.lfd.uci.edu/~gohlke/pythonlibs/.
