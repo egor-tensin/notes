@@ -21,7 +21,7 @@ Essential
     * Disable Location Tracking, Notifications, etc. in Content Settings.
 * KeePassXC (`choco install keepassxc`)
 * OpenVPN (`choco install openvpn --params "'/SELECT_EASYRSA=0'"`)
-* Sublime Text 3
+* Sublime Text 3 (`choco install sublimetext3`)
 * SumatraPDF (`choco install sumatrapdf.install`)
     * Disable update checks.
 * Sysinternals Suite (`choco install sysinternals`)
@@ -72,5 +72,4 @@ default one).
 ### Python
 
 * Python 3 (`choco install python3 --params "/InstallDir:C:\Python3"`).
-* `pip install` numpy & matplotlib from
-http://www.lfd.uci.edu/~gohlke/pythonlibs/.
+* `pip install numpy matplotlib` 
