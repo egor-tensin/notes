@@ -8,24 +8,34 @@ another, so I thought it would be useful to make a complete list.
 Essential
 ---------
 
-* 7-Zip (`choco install 7zip.install`)
+* 7-Zip
+    * `choco install 7zip.install`
     * Associate the file types in Tools -> Options...
     * Disable the "CRC SHA >" context menu entry on the other tab.
-* Cygwin (`choco install cygwin`)
+* Cygwin
+    * `choco install cygwin`
     * Install/generate the client SSH key.
     * Set up the SSH server.
-* Far Manager (`choco install far`)
+* Far Manager
+    * `choco install far`
     * Enable Explorer integration during installation.
-* Google Chrome (`choco install googlechrome`)
+* Google Chrome
+    * `choco install googlechrome`
     * Don't sync history.
     * Disable Location Tracking, Notifications, etc. in Content Settings.
-* KeePassXC (`choco install keepassxc`)
-* OpenVPN (`choco install openvpn --params "'/SELECT_EASYRSA=0'"`)
-* Sublime Text 3 (`choco install sublimetext3`)
-* SumatraPDF (`choco install sumatrapdf.install`)
+* KeePassXC
+    * `choco install keepassxc`
+* OpenVPN
+    * `choco install openvpn --params "'/SELECT_EASYRSA=0'"`
+* Sublime Text 3
+    * `choco install sublimetext3`
+* SumatraPDF
+    * `choco install sumatrapdf.install`
     * Disable update checks.
-* Sysinternals Suite (`choco install sysinternals`)
-* VLC (`choco install vlc`)
+* Sysinternals Suite
+    * `choco install sysinternals`
+* VLC
+    * `choco install vlc`
     * Disable update checks.
     * Don't install web browser plugins.
 
@@ -33,10 +43,12 @@ Optional
 --------
 
 * Discord
-* qBittorrent (`choco install qbittorrent`)
+* qBittorrent
+    * `choco install qbittorrent`
     * Disable update checks.
     * Set the downloads directory path.
-* TeamViewer (`choco install teamviewer`)
+* TeamViewer
+    * `choco install teamviewer`
     * Disable integrated system health checks (Extras -> Options -> Advanced).
 
 Special purpose
@@ -47,20 +59,23 @@ Special purpose
 * ImageMagick
     * Install "legacy utilities".
 * TeX Live
-* WinDirStat (`choco install windirstat`)
+* WinDirStat
+    * `choco install windirstat`
 
 Development
 -----------
 
 ### Version control
 
-* KDiff3 (`choco install kdiff3`)
+* KDiff3
+    * `choco install kdiff3`
     * Don't install "integrations".
 * WinMerge
 
 ### C/C++
 
 * CMake
+    * `choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'`
 * doxygen
 
 ### Haskell
@@ -71,5 +86,6 @@ default one).
 
 ### Python
 
-* Python 3 (`choco install python3 --params "/InstallDir:C:\Python3"`).
-* `pip install numpy matplotlib` 
+* Python 3
+    * `choco install python3 --params "/InstallDir:C:\Python3"`
+* `pip install numpy matplotlib`
